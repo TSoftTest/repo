@@ -3,7 +3,7 @@
 <%@page import="com.hwb.HelloWorldMessage" %>
 
 <div align="center">
-  <h2>Version FrontEnd: Version 67</h2>
+  <h2>Version FrontEnd: Version 68</h2>
   <h3>Version Back End: <%= (new HelloWorldMessage()).getMessage() %></h3>
   <img src="img/logo.png"/>
 </div>
