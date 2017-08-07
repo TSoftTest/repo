@@ -6,7 +6,7 @@ set JAVA_SRC_HOME=%HOME%\src
 set CLASSES_DIR=%WEB-APP-FILES%\WEB-INF\classes
 set LIB_DIR=%HOME%\lib
 
-set SERVLET_JAR=C:\jars\lib\servlet-api.jar
+set SERVLET_JAR=C:\lib\servlet-api.jar
 set SERVICE_JAR="C:\Program Files (x86)\Jenkins\workspace\App3Capas_JAR\APP3C_JAR_PROD\dist\servicesLib.jar"
 
 
