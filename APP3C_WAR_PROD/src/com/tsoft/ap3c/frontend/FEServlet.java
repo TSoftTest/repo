@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.tecnosoftware.ap3c.service.ServiceLayer;
+import com.tsoft.ap3c.service.ServiceLayer;
 
 /* test          */
 @SuppressWarnings("serial")
