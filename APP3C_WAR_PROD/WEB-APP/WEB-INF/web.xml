@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app version="3.0">
+  <display-name>Aplicacion 3 capas</display-name>  
+  <distributable/>
+      
+  <servlet>
+    <servlet-name>FEServlet</servlet-name>
+    <servlet-class>com.tecnosoftware.ap3c.frontend.FEServlet</servlet-class>
+    <load-on-startup>2</load-on-startup>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>FEServlet</servlet-name>
+    <url-pattern>*.html</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>FEServlet</servlet-name>
+    <url-pattern>*.htm</url-pattern>
+  </servlet-mapping>
+</web-app>
