@@ -14,7 +14,7 @@ IF exist %DIST_DIR% (del "%DIST_DIR%\*" /S /Q) ELSE (mkdir %DIST_DIR%)
 :: Java files ::
 ::::::::::::::::
 @echo Compiling: ServiceLayer.java
-javac -source 1.8 -target 1.8 -encoding utf8 "%JAVA_SRC_HOME%\com\tsoft\ap3c\service\ServiceLayer.java" -d "%CLASSES_DIR%"
+javac -verbose -source 1.8 -target 1.8 -encoding utf8 "%JAVA_SRC_HOME%\com\tsoft\ap3c\service\ServiceLayer.java" -d "%CLASSES_DIR%"
 if %ERRORLEVEL% GEQ 1 EXIT /B 1
 
 
