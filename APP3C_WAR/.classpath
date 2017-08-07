@@ -8,7 +8,6 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/APP3C_JAR_PROD"/>
 	<classpathentry kind="lib" path="C:/Tomcat-7.0.59/lib/annotations-api.jar"/>
 	<classpathentry kind="lib" path="C:/Tomcat-7.0.59/lib/catalina.jar"/>
 	<classpathentry kind="lib" path="C:/Tomcat-7.0.59/lib/catalina-ant.jar"/>
@@ -30,5 +29,6 @@
 	<classpathentry kind="lib" path="C:/Tomcat-7.0.59/lib/tomcat-jdbc.jar"/>
 	<classpathentry kind="lib" path="C:/Tomcat-7.0.59/lib/tomcat-util.jar"/>
 	<classpathentry kind="lib" path="C:/Tomcat-7.0.59/lib/websocket-api.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/APP3C_JAR"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
