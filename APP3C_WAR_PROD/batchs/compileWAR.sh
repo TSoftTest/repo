@@ -26,7 +26,7 @@ else
 fi
 
 echo Compiling FEServlet.java
-javac -source 1.6 -target 1.6 -encoding utf8 -cp "$SERVLET_JAR:$SERVICE_JAR:." "$JAVA_SRC_HOME/com/tsoft/ap3c/frontend/FEServlet.java" -d "$CLASSES_DIR"
+javac -source 1.8 -target 1.8 -encoding utf8 -cp "$SERVLET_JAR:$SERVICE_JAR:." "$JAVA_SRC_HOME/com/tsoft/ap3c/frontend/FEServlet.java" -d "$CLASSES_DIR"
 
 echo Generating WAR file
 cd "$WEB_APP_FILES/"

@@ -19,7 +19,7 @@ fi
 
 
 echo Compiling: MessagePrinter.java
-javac -source 1.6 -target 1.6 -encoding utf8 "$JAVA_SRC_HOME/com/tsoft/ap3c/service/ServiceLayer.java" -d "$CLASSES_DIR"
+javac -source 1.8 -target 1.8 -encoding utf8 "$JAVA_SRC_HOME/com/tsoft/ap3c/service/ServiceLayer.java" -d "$CLASSES_DIR"
 
 echo Generating Jar file
 cd "$CLASSES_DIR" 
