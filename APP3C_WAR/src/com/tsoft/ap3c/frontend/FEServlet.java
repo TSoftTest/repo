@@ -31,11 +31,11 @@ public class FEServlet extends HttpServlet {
 
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		try {
-			String answer = "<html><head></head> <body>" + "<hr> " + "<h1 align='center'>Tecnosoftware - Hola Teco</h1>" + "<hr>" + "<div align='center'>"
-			    + "<img height='50' src='logoTecnosoftware.gif'/>" + "<img height='50' src='logoSerena.png'/>" + "</div>" + "<hr>" +
+			String answer = "<html><head></head> <body>" + "<hr> " + "<h1 align='center'>TSoft</h1>" + "<hr>" + "<div align='center'>"
+			    + "<img height='50' src='logoTSoft.gif'/>" + "<img height='50' src='logoSerena.png'/>" + "</div>" + "<hr>" +
 			    // "<h3 align='center'> Texto en el Servlet: " +
 					// serviceLayer.getString() + "</h3>" +
-			    "<hr>" + "<h4  align='center''>2015 @ Serena - " + new java.util.Date() + "</h4>" + "</body></html>";
+			    "<hr>" + "<h4  align='center''>2017 - " + new java.util.Date() + "</h4>" + "</body></html>";
 
 			PrintWriter out = response.getWriter();
 			out.println(answer);
