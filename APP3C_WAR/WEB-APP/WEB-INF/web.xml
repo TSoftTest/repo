@@ -6,7 +6,7 @@
       
   <servlet>
     <servlet-name>FEServlet</servlet-name>
-    <servlet-class>com.tecnosoftware.ap3c.frontend.FEServlet</servlet-class>
+    <servlet-class>com.tsoft.ap3c.frontend.FEServlet</servlet-class>
     <load-on-startup>2</load-on-startup>
   </servlet>
   
