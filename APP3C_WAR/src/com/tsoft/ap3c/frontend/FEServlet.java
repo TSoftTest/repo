@@ -18,7 +18,7 @@ public class FEServlet extends HttpServlet {
 
 	public FEServlet() throws ServletException {
 		try {
-			serviceLayer = new ServiceLayer();
+			//serviceLayer = new ServiceLayer();
 		} catch (Exception e) {
 			e.printStackTrace();
 			throw new ServletException(e);
