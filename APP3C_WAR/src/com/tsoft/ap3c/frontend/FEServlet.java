@@ -8,13 +8,11 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.tsoft.ap3c.service.ServiceLayer;
-
 /* test          */
 @SuppressWarnings("serial")
 public class FEServlet extends HttpServlet {
 
-	public ServiceLayer serviceLayer;
+	//public ServiceLayer serviceLayer;
 
 	public FEServlet() throws ServletException {
 		try {
