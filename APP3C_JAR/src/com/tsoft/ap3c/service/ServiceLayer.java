@@ -47,7 +47,7 @@ public class ServiceLayer {
 		ResultSet rs = null;
 
 		try {
-			String texto = null;
+			String texto = "";
 			System.out.print("DB_URL:" + DB_URL + "\n");
 			System.out.print("USER:" + USER + "\n");
 			System.out.print("PASS:" + PASS + "\n");
