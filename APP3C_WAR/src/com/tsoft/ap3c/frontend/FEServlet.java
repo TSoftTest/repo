@@ -33,8 +33,8 @@ public class FEServlet extends HttpServlet {
 		try {
 			String answer = "<html><head></head> <body>" + "<hr> " + "<h1 align='center'>TSoft</h1>" + "<hr>" + "<div align='center'>"
 			    + "<img height='50' src='logoTsoft.png'/>" + "<img height='50' src='logoSerena.png'/>" + "</div>" + "<hr>" +
-			    // "<h3 align='center'> Texto en el Servlet: " +
-					// serviceLayer.getString() + "</h3>" +
+			      "<h3 align='center'> Texto en el Servlet: " +
+					  serviceLayer.getString() + "</h3>" +
 			    "<hr>" + "<h4  align='center''>2017 - " + new java.util.Date() + "</h4>" + "</body></html>";
 
 			PrintWriter out = response.getWriter();
