@@ -31,11 +31,16 @@ public class FEServlet extends HttpServlet {
 
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		try {
-			String answer = "<html><head></head> <body>" + "<hr> " + "<h1 align='center'>TSoft</h1>" + "<hr>" + "<div align='center'>"
-			    + "<img height='50' src='logoTsoft.png'/>" + "<img height='50' src='logoSerena.png'/>" + "</div>" + "<hr>" +
-			      "<h3 align='center'> Texto en el Servlet: " +
-					  serviceLayer.getString() + "</h3>" +
-			    "<hr>" + "<h4  align='center''>2017 - " + new java.util.Date() + "</h4>" + "</body></html>";
+			String answer = "";
+			answer += "<html><head></head> <body>" + "<hr> " + "<h1 align='center'>- TSoft - </h1>" + "<hr>" + "<div align='center'>";
+			answer += "<img height='50' src='logoTsoft.png'/>" + "<img height='50' src='logoSerena.png'/>" + "</div>" + "<hr>";
+			answer += "<h3 align='center'> Texto en el Servlet:";
+			answer += serviceLayer.getString() + "</h3>";
+			answer += "<hr>" + "<h4  align='center''>2017 - " + new java.util.Date() + "</h4>" + "</body></html>";
+			answer += "<br/>";
+			answer += "<br/>";
+			answer += "<h1>Fin de archivo</h1>";
+			answer += "<br/>";
 
 			PrintWriter out = response.getWriter();
 			out.println(answer);
