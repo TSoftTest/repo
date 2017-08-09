@@ -40,8 +40,7 @@ public class ServiceLayer {
 	public ServiceLayer() throws Exception {
 		conn = null;
 		stmt = null;
-		checkProperties();
-		Class.forName(JDBC_DRIVER);
+		//checkProperties();
 	}
 
 	public String getString() throws Exception {
@@ -53,12 +52,12 @@ public class ServiceLayer {
 			System.out.print("USER:" + USER + "\n");
 			System.out.print("PASS:" + PASS + "\n");
 
-			conn = DriverManager.getConnection(DB_URL, USER, PASS);
-			stmt = conn.createStatement();
-			String sql = "select texto from texto";
-			rs = stmt.executeQuery(sql);
-			rs.next();
-			texto = rs.getString(1);
+			//conn = DriverManager.getConnection(DB_URL, USER, PASS);
+			//stmt = conn.createStatement();
+			//String sql = "select texto from texto";
+			//rs = stmt.executeQuery(sql);
+			//rs.next();
+			//texto = rs.getString(1);
 
 			return texto + " - Este texto esta en el JAR";
 
