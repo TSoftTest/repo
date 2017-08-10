@@ -34,6 +34,7 @@ public class FEServlet extends HttpServlet {
 			String answer = "";
 			answer += "<html><head></head> <body>" + "<hr> " + "<h1 align='center'>- TSoft - </h1>" + "<hr>" + "<div align='center'>";
 			answer += "<img height='50' src='logoTsoft.png'/>" + "<img height='50' src='logoSerena.png'/>" + "</div>" + "<hr>";
+			answer += "<h3 align='center'> Ver. del WAR: 32 </h3>";
 			answer += "<h3 align='center'> Texto en el Servlet:";
 			answer += serviceLayer.getString() + "</h3>";
 			answer += "<hr>" + "<h4  align='center''>2017 - " + new java.util.Date() + "</h4>" + "</body></html>";
