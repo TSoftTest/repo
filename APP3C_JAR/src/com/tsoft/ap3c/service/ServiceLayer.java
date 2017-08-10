@@ -59,7 +59,7 @@ public class ServiceLayer {
 			//rs.next();
 			//texto = rs.getString(1);
 
-			return texto + " - Este texto esta en el JAR - Versión 23";
+			return texto + " - Este texto esta en el JAR - Versión 24";
 
 		} catch (Exception e) {
 			e.printStackTrace();
